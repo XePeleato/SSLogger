@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="238.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HideawayLogger.App">
+   <children>
+      <TextArea fx:id="txtPacket" layoutX="14.0" layoutY="19.0" prefHeight="200.0" prefWidth="442.0" />
+      <Button fx:id="btnSendToServer" layoutX="463.0" layoutY="25.0" mnemonicParsing="false" onAction="#onBtnSendToServerClick" prefHeight="26.0" prefWidth="120.0" text="Send to server" />
+      <Button fx:id="btnSendToClient" layoutX="466.0" layoutY="69.0" mnemonicParsing="false" onAction="#onBtnSendToClientClick" prefHeight="26.0" prefWidth="120.0" text="Send to client" />
+      <CheckBox fx:id="cbMute" layoutX="463.0" layoutY="119.0" mnemonicParsing="false" onAction="#onCbMuteToggle" text="Mute incoming" />
+   </children>
+</AnchorPane>
